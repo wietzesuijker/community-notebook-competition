@@ -17,7 +17,7 @@ all_declarations_affirmed: true
 
 ## Abstract (100 words)
 
-This notebook detects spring green-up across a 2,000 m elevation gradient in NE Italy, from the Po Plain to the Julian Alps, transferring under 100 MB from a multi-terabyte archive. Each analysis step teaches a specific EOPF Zarr v3 concept by needing it: consolidated metadata for single-request discovery, sharding for fewer HTTP requests, multi-resolution groups for progressive zoom, and co-located SCL masks for quality filtering. We compute NDVI (10m) and NDRE (20m) change between autumn and spring, revealing altitude-dependent phenology. A real-world v2/v3 media type mismatch in STAC metadata demonstrates why format probing matters for robust implementations.
+This notebook detects spring green-up across a 2,000 m elevation gradient in NE Italy, from the Po Plain to the Julian Alps, transferring around 100 MB from a multi-terabyte archive. Each analysis step teaches a specific EOPF Zarr v3 concept by needing it: consolidated metadata for single-request discovery, sharding for fewer HTTP requests, multi-resolution groups for progressive zoom, and co-located SCL masks for quality filtering. We compute NDVI (10m) and NDRE (20m) change between autumn and spring, revealing altitude-dependent phenology. A real-world v2/v3 media type mismatch in STAC metadata demonstrates why format probing matters for robust implementations.
 
 ## AI Disclosure: Describe how you used AI in authoring this notebook (100 words)
 
