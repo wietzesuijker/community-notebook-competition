@@ -1,6 +1,6 @@
 ---
 contact_name: "Wietze Suijker"
-email_address: "PLACEHOLDER@email.com"
+email_address: "wietze.suijker@gmail.com"
 notebook_authors: [
     "Wietze Suijker"
 ]
@@ -21,7 +21,7 @@ This notebook detects spring green-up across a 2,000 m elevation gradient in NE 
 
 ## AI Disclosure: Describe how you used AI in authoring this notebook (100 words)
 
-Claude (Anthropic) was used as a coding assistant throughout development. It helped with code iteration (debugging AOI positioning within the autumn swath coverage, SCL class selection for valid pixels), matplotlib figure styling, and structuring the notebook narrative to align with the competition template. All scientific decisions (study area selection, index choice, elevation zone placement, interpretation of results) were made by the author. The v2/v3 format mismatch discovery and the architecture explanations draw on the author's direct experience contributing to the GDAL Zarr driver, GeoZarr conformance tests, and QGIS GeoZarr plugin.
+Claude (Anthropic) was used as a coding assistant throughout development for code iteration, matplotlib figure styling, and structuring the notebook narrative to align with the competition template. All scientific decisions (study area selection, index choice, elevation zone placement, three-date arc design, interpretation of results) were made by the author. The v2/v3 format mismatch discovery and the architecture explanations draw on the author's direct experience contributing to the GDAL Zarr driver, GeoZarr conformance tests, and QGIS GeoZarr plugin.
 
 ## References: Provide the URLs of all code sources that you used in authoring this notebook
 
