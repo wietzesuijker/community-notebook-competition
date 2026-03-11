@@ -33,10 +33,11 @@ Claude (Anthropic) was used as a coding assistant throughout development for cod
 - GeoZarr spec conformance tests: https://github.com/zarr-developers/geozarr-spec/pull/127
 - GDAL Zarr vlen-utf8 PR: https://github.com/OSGeo/gdal/pull/14072
 - QGIS GeoZarr plugin: https://github.com/wietzesuijker/qgis-geozarr
+- EOPF Explorer media type fix: https://github.com/EOPF-Explorer/data-pipeline/pull/94
 
 ## Feedback (If you answered `true` to `had_challenges_working_with_sample_service_data` please provide feedback here!)
 
-The STAC metadata declares `application/vnd+zarr; version=2; profile=multiscales` but the actual data is Zarr v3 (zarr_format=3 in zarr.json). This media type mismatch causes clients that trust the STAC declaration to use a v2 reader, which fails on v3 data. Robust implementations need to probe zarr.json directly. Updating the STAC media type to reflect v3 would prevent this class of errors.
+The STAC metadata declares `application/vnd+zarr; version=2; profile=multiscales` but the actual data is Zarr v3 (zarr_format=3 in zarr.json). This media type mismatch causes clients that trust the STAC declaration to use a v2 reader, which fails on v3 data. Robust implementations need to probe zarr.json directly. This has been addressed in [data-pipeline#94](https://github.com/EOPF-Explorer/data-pipeline/pull/94), though existing STAC items haven't been re-registered yet.
 
 ## Declarations
 By submitting this notebook:
